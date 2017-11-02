@@ -32,6 +32,7 @@ if __name__ == '__main__':
        'plastic_cup',
        'soda_can']
 
+
     # Disable gravity and delete the ground plane
     initial_setup()
     labeled_features = []
@@ -64,5 +65,5 @@ if __name__ == '__main__':
         delete_model()
 
 
-    pickle.dump(labeled_features, open('training_set.sav', 'wb'))
+    pickle.dump(labeled_features, open('training_set1.sav', 'wb'))
 
